@@ -1,0 +1,283 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2024-01-22T23:19:37.673Z",
+        "line": 3,
+        "name": "Verify Homepage Elements",
+        "description": "",
+        "id": "technocrom-website-automation;verify-homepage-elements",
+        "after": [
+          {
+            "result": {
+              "duration": 130079400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.TechnocromStepDefinitions.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6857644600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the user is on the Technocrom homepage",
+            "match": {
+              "location": "com.example.TechnocromStepDefinitions.navigateToHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 73956900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user should see the header section",
+            "match": {
+              "location": "com.example.TechnocromStepDefinitions.verifyHeaderSection()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 28984100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user should see the latest articles section",
+            "match": {
+              "location": "com.example.TechnocromStepDefinitions.verifyLatestArticlesSection()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 29982800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user should see the footer section",
+            "match": {
+              "location": "com.example.TechnocromStepDefinitions.verifyFooterSection()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-01-22T23:19:44.859Z",
+        "line": 9,
+        "name": "Navigate to About Us page from Company header on homepage",
+        "description": "",
+        "id": "technocrom-website-automation;navigate-to-about-us-page-from-company-header-on-homepage",
+        "after": [
+          {
+            "result": {
+              "duration": 115968800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.TechnocromStepDefinitions.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4022806300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the user is on the Technocrom homepage",
+            "match": {
+              "location": "com.example.TechnocromStepDefinitions.navigateToHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 126927400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the user clicks on the \"Company\" header",
+            "match": {
+              "location": "com.example.TechnocromStepDefinitions.clickCompanyHeader()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 40976200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "the user should be navigated to the About Us page",
+            "match": {
+              "location": "com.example.TechnocromStepDefinitions.verifyNavigationToAboutUsPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 47972700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "the user should see the Company Profile section",
+            "match": {
+              "location": "com.example.TechnocromStepDefinitions.verifyCompanyProfileSection()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 53970000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "the user should see the Our Journey section",
+            "match": {
+              "location": "com.example.TechnocromStepDefinitions.verifyOurJourneySection()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 32981300,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "the user should see the Mission Vision section",
+            "match": {
+              "location": "com.example.TechnocromStepDefinitions.thenUserSeesMissionVisionSection()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 48971600,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "the user should see the \"Why Technocrom\" section",
+            "match": {
+              "location": "com.example.TechnocromStepDefinitions.thenUserSeesWhyTechnocromSection()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 29982900,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "the user should see the \"Life At Technocrom\" section",
+            "match": {
+              "location": "com.example.TechnocromStepDefinitions.thenUserSeesLifeAtTechnocromSection()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 27984300,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "the user should see the \"How We Work\" section",
+            "match": {
+              "location": "com.example.TechnocromStepDefinitions.thenUserSeesHowWeWorkSection()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 33981200,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "the user should see the footer section",
+            "match": {
+              "location": "com.example.TechnocromStepDefinitions.verifyFooterSection()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-01-22T23:19:49.444Z",
+        "line": 21,
+        "name": "Verify Resources Page",
+        "description": "",
+        "id": "technocrom-website-automation;verify-resources-page",
+        "after": [
+          {
+            "result": {
+              "duration": 132011100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.TechnocromStepDefinitions.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5093299900,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "the user is on the Technocrom homepage",
+            "match": {
+              "location": "com.example.TechnocromStepDefinitions.navigateToHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 107937700,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "the user clicks on the \"Resources\" link",
+            "match": {
+              "location": "com.example.TechnocromStepDefinitions.clickResourcesLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 39978900,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "the user should be navigated to the Resources page",
+            "match": {
+              "location": "com.example.TechnocromStepDefinitions.verifyNavigationToResourcesPage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Technocrom Website Automation",
+    "description": "",
+    "id": "technocrom-website-automation",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/technocrom.feature",
+    "tags": []
+  }
+]

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="20.11">
+    <testcase classname="Technocrom Website Automation" name="Verify Homepage Elements" time="8.842">
+        <system-out><![CDATA[Given the user is on the Technocrom homepage................................passed
+Then the user should see the header section.................................passed
+And the user should see the latest articles section.........................passed
+And the user should see the footer section..................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Technocrom Website Automation" name="Navigate to About Us page from Company header on homepage" time="5.809">
+        <system-out><![CDATA[Given the user is on the Technocrom homepage................................passed
+When the user clicks on the "Company" header................................passed
+Then the user should be navigated to the About Us page......................passed
+And the user should see the Company Profile section.........................passed
+And the user should see the Our Journey section.............................passed
+And the user should see the Mission Vision section..........................passed
+And the user should see the "Why Technocrom" section........................passed
+And the user should see the "Life At Technocrom" section....................passed
+And the user should see the "How We Work" section...........................passed
+And the user should see the footer section..................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Technocrom Website Automation" name="Verify Resources Page" time="5.284">
+        <system-out><![CDATA[Given the user is on the Technocrom homepage................................passed
+When the user clicks on the "Resources" link................................passed
+Then the user should be navigated to the Resources page.....................passed
+]]></system-out>
+    </testcase>
+</testsuite>
